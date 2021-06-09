@@ -1,0 +1,30 @@
+<map id="map" name="map">
+    <area shape="circle" alt="B" title="" coords="304,478,26" href="/save_slot_load/<%= $game["index"].to_s %>" />
+    <area shape="circle" alt="A" title="" coords="381,439,26" href="" />
+    <area shape="circle" alt="on/off" title="" coords="74,166,6" href="" />
+    <area shape="rect" alt="up" title="" coords="86,420,121,453" href="/save_slot_up_title" />
+    <area shape="rect" alt="left" title="" coords="53,454,84,488" href="" />
+    <area shape="rect" alt="right" title="" coords="123,455,152,487" href="" />
+    <area shape="rect" alt="down" title="" coords="86,490,122,519" href="/save_slot_down_title" />
+    <area shape="poly" alt="select" title="" coords="146,571,188,547,190,562,144,584,142,575" href="/title_screen" />
+    <area shape="poly" alt="start" title="" coords="216,572,261,546,258,564,209,584" href="" />
+</map>
+
+<div class="map">
+    <img src="<%=asset_path 'green.png'%>" alt="map" width=270 height=202>
+    <table class="slot" style="border=10px">
+        <tr>
+            <td style=<%= "background-color:#e3f2fd" if $game["index"] == 1%>>1</td>
+        </tr>
+        <tr>
+            <td style=<%= "background-color:#e3f2fd" if $game["index"] == 2 %>>2</td>
+        </tr>
+        <tr>
+            <td style=<%= "background-color:#e3f2fd" if $game["index"] == 3 %>>3</td>
+        </tr>
+        </table>
+    <div class="save_foot">
+        <p>[A] Save [B] Load</p>
+    </div>
+</div>
+

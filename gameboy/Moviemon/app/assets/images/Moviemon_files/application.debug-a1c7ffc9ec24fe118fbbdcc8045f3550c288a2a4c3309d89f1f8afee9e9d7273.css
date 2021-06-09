@@ -1,0 +1,162 @@
+/* line 5, app/assets/stylesheets/movie.scss */
+.id {
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+/* line 11, app/assets/stylesheets/movie.scss */
+.map {
+  position: absolute;
+  top: 107px;
+  left: 110px;
+  z-index: 2;
+}
+
+/* line 18, app/assets/stylesheets/movie.scss */
+.game_title {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+/* line 24, app/assets/stylesheets/movie.scss */
+.movie_title_dir {
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  width: 145px;
+  color: #4e4e83;
+  font-size: 14px;
+}
+
+/* line 33, app/assets/stylesheets/movie.scss */
+.movie_power {
+  position: absolute;
+  top: 22px;
+  left: 105px;
+  width: 145px;
+  color: #4e4e83;
+  font-size: 14px;
+}
+
+/* line 42, app/assets/stylesheets/movie.scss */
+.player_power {
+  position: absolute;
+  top: 105px;
+  left: 115px;
+  width: 145px;
+  color: #4e4e83;
+  font-size: 14px;
+}
+
+/* line 51, app/assets/stylesheets/movie.scss */
+.game_foot {
+  position: absolute;
+  top: 170px;
+  left: 65px;
+}
+
+/* line 57, app/assets/stylesheets/movie.scss */
+.character {
+  position: absolute;
+}
+
+/* line 62, app/assets/stylesheets/movie.scss */
+.poster {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+
+/* line 68, app/assets/stylesheets/movie.scss */
+.battle_foot {
+  position: absolute;
+  top: 160px;
+  left: 175px;
+  color: white;
+  font-size: 12px;
+}
+
+/* line 76, app/assets/stylesheets/movie.scss */
+.win {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  font-size: 20px;
+}
+
+/* line 83, app/assets/stylesheets/movie.scss */
+.lose {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  font-size: 20px;
+}
+
+/* line 90, app/assets/stylesheets/movie.scss */
+.moviedex_poster {
+  position: absolute;
+  left: 60%;
+  top: 0%;
+}
+
+/* line 96, app/assets/stylesheets/movie.scss */
+.moviedex_year {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  font-size: 15px;
+}
+
+/* line 103, app/assets/stylesheets/movie.scss */
+.moviedex_genre {
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  width: 150px;
+  font-size: 11px;
+}
+
+/* line 111, app/assets/stylesheets/movie.scss */
+.moviedex_director {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  width: 150px;
+  font-size: 11px;
+}
+
+/* line 119, app/assets/stylesheets/movie.scss */
+.moviedex_rate {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 150px;
+  font-size: 11px;
+}
+
+/* line 127, app/assets/stylesheets/movie.scss */
+.moviedex_abstract {
+  position: absolute;
+  left: 0%;
+  top: 65%;
+  font-size: 8px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/*# sourceMappingURL=application.css-7b3cab049c929e1b20d8d7f92e580257710176124ead577844a3a608fc9cd5e5.map */

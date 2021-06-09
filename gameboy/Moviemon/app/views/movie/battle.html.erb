@@ -1,0 +1,29 @@
+<map id="map" name="map">
+    <area shape="circle" alt="B" title="" coords="304,478,26" href="run" />
+    <area shape="circle" alt="A" title="" coords="381,439,26" href="battle/fight" />
+    <area shape="circle" alt="on/off" title="" coords="74,166,6" href="" />
+    <area shape="rect" alt="up" title="" coords="86,420,121,453" href="" />
+    <area shape="rect" alt="left" title="" coords="53,454,84,488" href="" />
+    <area shape="rect" alt="right" title="" coords="123,455,152,487" href="" />
+    <area shape="rect" alt="down" title="" coords="86,490,122,519" href="" />
+    <area shape="poly" alt="select" title="" coords="146,571,188,547,190,562,144,584,142,575" href="" />
+    <area shape="poly" alt="start" title="" coords="216,572,261,546,258,564,209,584" href="" />
+</map>
+
+<div class="map">
+    <img src="<%=asset_path 'battle.jpeg'%>" alt="map" width=270 height=202>
+    <img src="<%= $game["Poster"] %>" alt="map" width=95 height=95 class="poster">
+    <div class="movie_title_dir">
+        <p><%= $game["Title"] %> - <%= $game["Director"] %></p>
+    </div>
+    <div class="movie_power">
+        <p>HP: <%= $game["monster_power"] %></p>
+    </div>
+    <div class="player_power">
+        <p>HP: <%= $game["player_power"] %></p>
+    </div>
+    <div class="battle_foot">
+        <p>[A] fight [B] run</p>
+    </div>
+
+</div>

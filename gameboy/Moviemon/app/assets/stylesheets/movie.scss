@@ -1,0 +1,162 @@
+// Place all the styles related to the movie controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.id {
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.map {
+    position: absolute;
+    top: 107px;
+    left: 110px;
+    z-index: 2;
+}
+
+.game_title {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.movie_title_dir {
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 145px;
+    color: rgb(78, 78, 131);
+    font-size: 14px;
+}
+
+.movie_power {
+    position: absolute;
+    top: 22px;
+    left: 105px;
+    width: 145px;
+    color: rgb(78, 78, 131);
+    font-size: 14px;
+}
+
+.player_power {
+    position: absolute;
+    top: 105px;
+    left: 115px;
+    width: 145px;
+    color: rgb(78, 78, 131);
+    font-size: 14px;
+}
+
+.game_foot {
+    position: absolute;
+    top: 170px;
+    left: 65px;
+}
+
+.character { 
+    // top 0 ~ 190, left 0 ~ 260
+    position: absolute;
+}
+
+.poster {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.battle_foot {
+    position: absolute;
+    top: 160px;
+    left: 175px;
+    color: white;
+    font-size: 12px;
+}
+
+.win {
+    position: absolute;
+    left : 15%;
+    top : 25%;
+    font-size: 20px;
+}
+
+.lose {
+    position: absolute;
+    left : 15%;
+    top : 25%;
+    font-size: 20px;
+}
+
+.moviedex_poster {
+    position: absolute;
+    left : 60%;
+    top : 0%;
+}
+
+.moviedex_year {
+    position: absolute;
+    left : 0%;
+    top : 0%;
+    font-size: 15px;
+}
+
+.moviedex_genre {
+    position: absolute;
+    left : 0%;
+    top : 10%;
+    width: 150px;
+    font-size: 11px;
+}
+
+.moviedex_director {
+    position: absolute;
+    left : 0%;
+    top : 35%;
+    width: 150px;
+    font-size: 11px;
+}
+
+.moviedex_rate {
+    position: absolute;
+    left : 0%;
+    top : 50%;
+    width: 150px;
+    font-size: 11px;
+}
+
+.moviedex_abstract {
+    position: absolute;
+    left : 0%;
+    top : 65%;
+    font-size: 8px;
+}
+
+.slot {
+    border-collapse: separate;
+    position: absolute;
+    border-spacing: 30px;
+    width: 100%;
+    text-align: center;
+    left : 0%;
+    top : 0%;
+}
+
+table th, table td {
+    border: solid 3px;
+    font-size: 20px;
+}
+
+.save_foot {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+}
+
+.ball {
+    position: absolute;
+    left : 0%;
+    top : 0%;
+    margin: 0px;
+    font-size: 12px;
+    color: white;
+}
